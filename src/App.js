@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import BucketItem from './components/bucket-item/BucketItem';
+import data from './data/bucketitems.json';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <h1>My Bucketlist Items</h1>
+      
+      <div className="bucket-container">
+      { data.map( (item)=><BucketItem 
+          title={item.title} 
+          description={item.description}
+          img={item.img}
+          id={item.id}
+        />  ) }
+      </div>
+      <div>Something</div>
+
     </div>
   );
 }
