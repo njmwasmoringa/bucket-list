@@ -3,24 +3,31 @@
         "title":"Visit Bali",
         "description": "LKJ ljLKJ lkJl KLj lj kl",
         "img": "/images/bungee-4418852_640.jpg",
-        "id":1
+        "id":1,
+        "likes": 5
     },
+
     {
         "title":"Visit Bali",
         "description": "LKJ ljLKJ lkJl KLj lj kl",
         "img": "/images/beach-1236581_640.jpg",
-        "id":2
+        "id":2,
+        "likes": 0
     },
+
     {
         "title":"Visit Bali",
         "description": "LKJ ljLKJ lkJl KLj lj kl",
         "img": "/images/man-498473_640.jpg",
-        "id":3
+        "id":3,
+        "likes": 0
     },
+
     {
         "title":"Visit Bali",
         "description": "LKJ ljLKJ lkJl KLj lj kl",
         "img": "/images/sunrise-1014712_640.jpg",
-        "id":4
+        "id":4,
+        "likes": 20
     }
 ]
